@@ -68,33 +68,6 @@ param `Object` 设置构建自适应模块的初始化参数<br/>
 
 当前使用计算的 densityDpi
 
-### 事件
-
-> #### resize <br/>
-
-场景进行自适应计算完成的事件
-
-```js
-
-var _SiteResizeModel=new Ds.SiteMoblieResizeModel({
-  screen:'#screen',
-  screenType:'v',
-});
-
-_SiteResizeModel.on('resize',ReSize);
-
-function ReSize(e){
-  var _width=_SiteResizeModel.Width;
-  var _height=_SiteResizeModel.Height ;
-  var _actualH=_SiteResizeModel.ActualH;
-  var _pageScale=_SiteResizeModel.PageScale;
-  var _isInputState=_SiteResizeModel.IsInputState;
-  var _horizontal=_SiteResizeModel.Horizontal;
-  var _screenWidth=_SiteResizeModel.ScreenWidth;
-  var _densityDpi=_SiteResizeModel.DensityDpi;
-}
-
-```
 
 ### 方法
 
@@ -131,6 +104,33 @@ function ReSize(e){
 **返回**<br/>
 无
 
+### 事件
+
+> #### resize <br/>
+
+场景进行自适应计算完成的事件
+
+
 ### 查看示例
 
-!>无
+```js
+//创建一个自适应模块
+var _SiteResizeModel=new Ds.SiteMoblieResizeModel({
+  screen:'#screen',//进行自适应的容器div
+  screenType:'v',//自适应类型 竖屏
+});
+//监听自适应
+_SiteResizeModel.on('resize',ReSize);
+//自适应方法
+function ReSize(e){
+  var _width=_SiteResizeModel.Width;
+  var _height=_SiteResizeModel.Height ;
+  var _actualH=_SiteResizeModel.ActualH;
+  var _pageScale=_SiteResizeModel.PageScale;
+  var _isInputState=_SiteResizeModel.IsInputState;
+  var _horizontal=_SiteResizeModel.Horizontal;
+  var _screenWidth=_SiteResizeModel.ScreenWidth;
+  var _densityDpi=_SiteResizeModel.DensityDpi;
+}
+
+```
