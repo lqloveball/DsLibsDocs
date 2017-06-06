@@ -1,6 +1,6 @@
 # DsLibs  API文档
 
-[DsLibs](https://github.com/lqloveball/DsLibs)
+[DsLibs Code库](https://github.com/lqloveball/DsLibs)
 
 > Ds是累积平时项目工作的经验代码库,不属于工作职位任务与项目的内容。代码库大部分理念来至曾经as开发时候积累。
 
