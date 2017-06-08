@@ -1,6 +1,28 @@
 >通用项目模板代码结构剖析，更清楚知道什么样H5活动适合使用这个模板进行开发。
 
-## 项目代码打包结构说明
+#### 项目模板环境配置说明
+
+>  ##### webpack配置
+
+
+>  ##### gulp配置
+
+
+#### 项目模板代码结构
+
+>  ##### src/main.js 入口文件
+
+
+>  ##### src/app/AppMain.js 单页面程序主模块
+
+
+>  ##### src/app/APIManager.js 程序接口模块
+
+
+>  ##### src/app/LoadModel.js 程序loading模块
+
+
+#### 项目模板打包结构说明
   - `js/app/main.js`<br/>
     *
     src/Ds/gemo/Devicer.js 设备判断管理<br/>

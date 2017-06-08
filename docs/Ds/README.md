@@ -56,14 +56,14 @@
 [Ds.createjs.display.Object369ByFrames.js]()  产品360度浏览管理<br/>
 ~~[Ds.createjs.display.SliderSelectionPanel.js]()  模拟IOS下Select控件`（需要重新思考定义）`<br/>~~
 
->快速处理宝库
+>gemo 快速处理宝库
 
 [Ds.gemo.Devicer.js]()  设备类型判断<br/>
 [Ds.gemo.DeviceOrientationer.js]()  陀螺仪、摇一摇<br/>
 [Ds.gemo.Gesture.js]()  手势控制<br/>
 [Ds.gemo.GIFBuilder.js]()  前端GIF合成处理<br/>
 [Ds.gemo.GalleryAnnularLoopManager.js]()  作品循环滚动数据处理<br/>
-[Ds.gemo.InputInteractive.js]()  输入交互联动`(这个类需要重新设计)`<br/>
+~~[Ds.gemo.InputInteractive.js]()  输入交互联动`(这个类需要重新设计)`<br/>~~
 [Ds.gemo.JT3D.js]()       使用shark的CSS3D.js进行运动简化操作<br/>
 [Ds.gemo.OGerModel.js]()  陀螺仪与拖动的控制.<br/>
 [Ds.gemo.PageSlider.js]()  touch平滑拖动计算<br/>
@@ -72,15 +72,14 @@
 [Ds.gemo.QuickTrack.js]()  快速添加检测代码  百度  GA<br/>
 [Ds.gemo.requestAnimationFrame.js]()  解决requestAnimationFrame兼容问题<br/>
 [Ds.gemo.SitePageManager.js]()  对项目模板的页面跳转管理<br/>
-[Ds.gemo.SliderDistance.js]()  对平滑拖动距离长度的管理封装`（这个类废除，仅支持纵向.推荐使用SliderHVDistance.js）`<br/>
+~~[Ds.gemo.SliderDistance.js]()  对平滑拖动距离长度的管理封装`（这个类废除，仅支持纵向.推荐使用SliderHVDistance.js）`<br/>~~
 [Ds.gemo.SliderHVDistance.js]()  对平滑拖动距离长度的管理封装<br/>
 [Ds.gemo.WebHash.js]() 对地址栏的hash路由简单管理<br/>
 
->快速处理宝库
+>ui 处理
 
 [Ds.ui.PopLayer.js]() Ds.alert代替默认alert <br/>
 [Ds.ui.HorizontalScreenAutoContainer.js]() DOM的强制横屏容器 <br/>
-[Ds.ui.DatePickers.js]() 快速设置日期控件 <br/>
 [Ds.ui.DatePickers.js]() 快速设置日期控件 <br/>
 [Ds.ui.OrientationTip.js]() 竖屏提示 <br/>
 ~~[Ds.ui.DIVMovieClip.js]() 使用精灵图的DIV MovieChilp <br/>~~
@@ -104,7 +103,7 @@
 
 [Ds.utils.ArcMath.js]() 三角函数计算 <br/>
 [Ds.utils.Bezier.js]() 贝塞尔计算 <br/>
-[Ds.utils.LayoutFitArea.js]() 显示区域布局计算`基本无用` <br/>
+~~[Ds.utils.LayoutFitArea.js]() 显示区域布局计算`基本无用` <br/>~~
 [Ds.utils.TimeUtils.js]() 时间处理类 Date 与 字符直接处理 <br/>
 [Ds.utils.Utils.js]() 常用判断 <br/>
 
