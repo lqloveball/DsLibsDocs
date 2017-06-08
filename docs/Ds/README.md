@@ -82,7 +82,8 @@
 [Ds.ui.DatePickers.js]() 快速设置日期控件 <br/>
 [Ds.ui.DatePickers.js]() 快速设置日期控件 <br/>
 [Ds.ui.OrientationTip.js]() 竖屏提示 <br/>
-[Ds.ui.DIVMovieClip.js]() 使用精灵图的DIV MovieChilp <br/>
+~~[Ds.ui.DIVMovieClip.js]() 使用精灵图的DIV MovieChilp <br/>~~
+~~[Ds.ui.PictureListBox.js]() 图片galley框，快速实现左右滑动切换图片效果内容 <br/>~~
 
 >net 网络
 
