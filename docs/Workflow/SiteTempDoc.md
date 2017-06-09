@@ -168,5 +168,43 @@ function InitModels() {
     src/app/APIManager.js 分享接口 数据提交接口  作品回流接口管理<br/>
     src/Ds/ui/PopLayer.min.js 通用alert提示框<br/>
     src/Ds/gemo/SitePageManager.js 页面跳转管理<br/>
-    src/app/**/?.js 其他项目逻辑代码<br/>
-    *
+    src/app/\*\*/?.js 其他项目逻辑代码<br/>
+-----
+
+#### 项目子页面代码模板
+
+Atom 编辑器代码片段 `具体使用请百度 Atom编辑器代码片段设置`,
+``` js
+'通用项目模板 页面模块代码片段':
+    'prefix': 'wpjs'
+    'body': """
+            /**
+             * $3
+             * @type {[Class]}
+            **/
+            function $1(){
+              var _Self=this;
+              //页面名称
+              this.name='$1';
+              //事件继承
+              // Ds.Extend(this, new Ds.EventDispatcher());
+              //主模块
+              var _AppMain=SiteModel.AppMain;
+              //如果有用到 createjs 部分代码
+              var _Root, _Stage, _CJSModel;
+              if(SiteModel.CJSModel){
+                //createjs
+                _CJSModel=SiteModel.CJSModel;
+                _Root = _CJSModel.Root;
+                _Stage = _CJSModel.Stage;
+              }
+
+              //页面进场
+              this.MovieIn=function(){
+                $2
+              };
+            }
+            module.exports=new $1();
+            """
+```
+!> 请编辑器如何设置快速代码片段，请 百度 或者 google
