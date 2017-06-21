@@ -35,7 +35,7 @@
 - 支持canvas的createjs项目、普通的dom结构项目
 - 首屏画面大小与js请求数优化
 
-?>js文件请求数4个 `main.js 20k`+`base.js 84k`+（`vendors1.js 22k` 或者+ `vendors2.js 302k`）+`AppMain.js ?项目情况决定k`  默认首屏画面loading可以控制在200k内（在main.js与base.js加载完成后可以构建 ，算上图片资源200k足以）。如果loading是使用createjs的复杂动画 、那首屏画面需要加载数据至少500以内。
+?>js文件请求数4个<br>  `main.js 20k`<br> `base.js 84k`<br> `AppMain.js ?项目情况决定k` <br> `createjsFrameWork.js 250k`（如果需要canvas框架的话）<br> 默认首屏画面loading可以控制在200k内（在main.js与base.js加载完成后可以构建 ，算上图片资源200k足以）。如果loading是使用createjs的复杂动画 、那首屏画面需要加载数据至少500以内。
 
 - loading模块快速实现 *如果按`指定dom结构`或者`指定createjs的loading动画`，loading模块是帮忙默认构建*
 
