@@ -152,7 +152,7 @@ function InitModels() {
     src/Ds/gemo/QuickTrack.js 快速添加检测代码类<br/>
     src/Ds/media/MobileAudioAutoPlayLister.js 背景声音管理类<br/>
     *
-  - `js/app/createjsFrameWork.js`<br/>
+  - `js/app/createjsFrameWork.js` (需要createjs框架时候才会加载)<br/>
     *
     src/libs/createjs/createjs0.8.2.min.js createjs框架<br/>
     src/Ds/createjs/DsCreatejs.js createjs Ds扩展工具集框<br/>
