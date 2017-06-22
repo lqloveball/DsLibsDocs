@@ -145,7 +145,7 @@ function InitModels() {
     src/app/LoadModel.js 加载进度条模块<br/>
     *
   - `js/app/base.js`<br/>
-    *
+    * 
     src/libs/base/zepto.min.js dom选择器<br/>
     src/Ds/EventDispatcher.js 事件实现类<br/>
     src/Ds/SiteMoblieResizeModel.js H5自适应屏幕类<br/>
