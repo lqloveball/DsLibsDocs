@@ -42,19 +42,20 @@
     //   noData: 'No Results!',
     // },
     //============搜索配置==================end
-    // plugins: [
-    //   function(hook, vm) {  hook.beforeEach(function (html) {
-    //       var url = 'https://github.com/lqloveball/DsLibs/tree/master/docs' + vm.route.file
-    //       var editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n'
-    //
-    //       return editHtml
-    //         + html
-    //         + '\n----\n'
-    //         + 'Last modified 06/03 20:12 '
-    //         + editHtml
-    //     })
+    // markdown:function(marked, renderer) {
+    //   var _oldCode=renderer.code;
+    //   renderer.code=function (code, language) {
+    //     if(language==='flow'){
+    //       if(code.match(/^sequenceDiagram/)||code.match(/^graph/)){
+    //          return '<div class="mermaid">'+code+'</div>';
+    //       }
+    //     }else{
+    //       _oldCode(code,language);
+    //     }
     //   }
-    // ],
+    //
+    //   return marked
+    // },
   }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -68,5 +69,6 @@
 <!-- vue插件 -->
 <script src="//unpkg.com/vue/dist/vue.min.js"></script>
 <script src="//unpkg.com/vuep/dist/vuep.min.js"></script>
+
 
 </html>
