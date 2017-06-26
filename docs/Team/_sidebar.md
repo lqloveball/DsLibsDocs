@@ -1,11 +1,11 @@
 - [返回](/README)
-  - [内部Git管理Gitlab](Team/)
+  - [内部Git管理Gitlab](Team/Git/)
   - [Createjs]
     - [Createjs基础培训](Team/Createjs/)
     - [Flash软件使用](Team/Createjs/)
   - [IScroll教程](Team/IScroll/)
   - [TweenMax教程](Team/TweenMax/)
-  - [Pano2VR教程](Team/JSBase/)
+  - [Pano2VR教程](Team/Pano2VR/)
   - [H5项目常见问题及注意事项](Team/JSBase/)
   - [团队JS基础教程](Team/JSBase/)
   - [Ds库](Ds/)
