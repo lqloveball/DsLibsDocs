@@ -2,7 +2,6 @@
   - **[内部Git管理Gitlab](Team/Git/)**
   - **[Createjs]**
     - [Createjs基础培训](Team/Createjs/)
-    - [Flash软件使用](Team/Createjs/)
   - [IScroll教程](Team/IScroll/)
   - **[TweenMax教程]**
     - [关于TweenMax](Team/TweenMax/)
