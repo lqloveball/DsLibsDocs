@@ -1,6 +1,8 @@
 TweenLite是一个非常快速、轻量级、灵活的动画工具。TweenLite可以处对象一个或多个属性的变化。TweenLite可以自行完成大多数动画，并且它很效果。
 
 >### 使用示例
+
+
 TweenLite 使用起来非常的简单与方便。最常用的就是 **TweenLite.to()**
 
 
@@ -126,6 +128,17 @@ function myFunction(value1,value2) {
   - "concurrent" (3) 干掉所有，从当前重新开始(个人理解、有误请指出)
   - "allOnStart" (4) 干掉所有对这个对象进行运动的显示对象，只要是已经开始的运动对象(个人理解、有误请指出)
   - "preexisting" (5)理解太挠，建议自己看英文文档并尝试(个人理解、有误请指出)
+  
+- #### lazy: `Boolean`
+惰性设置 提供性能
+
+- #### autoCSS: `Boolean`
+开启自动转换css参数值设置倒vars值内
+
+- #### callbackScope: `Object`
+统一设定回调的this指向
+
+
 
 >### Plugins 插件
 

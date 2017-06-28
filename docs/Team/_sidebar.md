@@ -10,6 +10,8 @@
     - [TimelineLite](Team/TweenMax/TimelineLite.md)
     - [TweenMax](Team/TweenMax/TweenMax.md)
     - [TimelineMax](Team/TweenMax/TimelineMax.md)
+    - [TweenMax Plugin](Team/TweenMax/Plugin.md)
+    - [TweenMax Easing](Team/TweenMax/Easing.md)
   - **[Pano2VR教程](Team/Pano2VR/)**
   - **[H5项目常见问题](Team/H5FAQ.md)**
   - **[团队JS基础教程]**
