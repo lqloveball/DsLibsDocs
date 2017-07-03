@@ -29,6 +29,60 @@ https://cn.vuejs.org/v2/guide/index.html
 
 https://cn.vuejs.org/v2/guide/instance.html
 
+主要生命周期有
+- `beforeCreate` 创建前
+- `created`  创建完成
+- `beforeMounte` 进行装配前
+- `mounted` 装配完成
+- `beforeUpdate` 进行数据更新前
+- `updated` 数据更新后
+- `beforeDestroy` 进行摧毁前
+- `destroyed` 摧毁完成
+
+### 模板语法
+
+- 文本插入
+```html
+  <span>Message: {{ msg }}</span>
+```
+- 只执行一次插入 `v-once`
+```html
+  <span v-once>
+```
+- 纯 HTML `v-html`
+```html
+  <div v-html="rawHtml"></div>
+```
+
+- 判断指令 `带有 v- 前缀的特殊属性`
+  - v-if   判断
+  - v-for  for循环
+  - v-on   事件
+  ```html
+  <!-- 完整语法 -->
+  <a v-on:click="doSomething"></a>
+  <!-- 缩写 -->
+  <a @click="doSomething"></a>
+  ```
+  - v-bind 数据绑定
+  ```html
+    <!-- 完整语法 -->
+    <a v-bind:href="url"></a>
+    <!-- 缩写 -->
+    <a :href="url"></a>
+  ```
+### 属性计算
+
+https://cn.vuejs.org/v2/guide/computed.html
+
+有必要清楚 `computed`、`watch`、`methods` 适用场景
+
+- methods 主要用来定义组件的方法
+- computed  属性需要经过逻辑计算后 可以定义在计算方法属性内
+- watch 用来执行数据变化 生产的异步操作与大开销的操作
+
+
+
 ### 渲染相关
 
 建议上手 进行测试学习。这个很关键，学习Vue的目的，对于小伙伴来说这是初步基础。也属于刚开始来体验Vue的神奇之处
@@ -53,6 +107,11 @@ https://cn.vuejs.org/v2/guide/components.html
 
 
 - 组件注册 (熟读)
+- 组件构成
+https://cn.vuejs.org/v2/guide/components.html#构成组件
 - Prop （建议熟读，对经验学习者不想开发自己组件可越过，但也必须思路上熟悉）
    这是组件与组件之间交互基本知识点
 - Slot （熟读，大型项目是组件与组件搭建出来，这块建议熟读）
+https://cn.vuejs.org/v2/guide/components.html#使用-Slot-分发内容
+- `scope` 插槽 子组件与父组件直接配合
+https://cn.vuejs.org/v2/guide/components.html#作用域插槽
