@@ -36,6 +36,8 @@ https://cn.vuejs.org/v2/guide/instance.html
 - `mounted` 装配完成
 - `beforeUpdate` 进行数据更新前
 - `updated` 数据更新后
+- `activated`
+- `deactivated`
 - `beforeDestroy` 进行摧毁前
 - `destroyed` 摧毁完成
 
@@ -109,9 +111,9 @@ https://cn.vuejs.org/v2/guide/components.html
 - 组件注册 (熟读)
 - 组件构成
 https://cn.vuejs.org/v2/guide/components.html#构成组件
-- Prop （建议熟读，对经验学习者不想开发自己组件可越过，但也必须思路上熟悉）
+- `Prop` （建议熟读，对经验学习者不想开发自己组件可越过，但也必须思路上熟悉）
    这是组件与组件之间交互基本知识点
-- Slot （熟读，大型项目是组件与组件搭建出来，这块建议熟读）
+- `Slot` （熟读，大型项目是组件与组件搭建出来，这块建议熟读）
 https://cn.vuejs.org/v2/guide/components.html#使用-Slot-分发内容
 - `scope` 插槽 子组件与父组件直接配合
 https://cn.vuejs.org/v2/guide/components.html#作用域插槽

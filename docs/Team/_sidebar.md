@@ -17,5 +17,6 @@
   - **[团队JS基础教程]**
     - [从零开始](Team/JSBase/Base0.md)
     - [事件机制](Team/JSBase/Base1.md)
+    - [原生JS DOM基本操作](Team/JSBase/Base2.md) 
   - [Ds库](Ds/)
   - [项目开发指南](Workflow/)
