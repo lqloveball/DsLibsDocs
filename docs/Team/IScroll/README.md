@@ -102,7 +102,7 @@ refresh()                         在DOM树发生变化时，应该调用此方�
 scrollTo()                        滚动到某个位置
 如: myscroll.scrollTo(0,10,200,true);
 scrollToElement()                 滚动到某个元素
-如: myscroll.scrolToElement("li:nth-child(10)",100);
+如: myscroll.scrollToElement("li:nth-child(10)",100);
 detroy()                          完全消除myscroll及其占用的内存空间
 ```
 
