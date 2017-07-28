@@ -2,7 +2,7 @@
 
 ### 全局配置
 
-- #####`Vue.config.keyCodes` 配置按键
+- ##### `Vue.config.keyCodes` 配置按键
 
 ```js
 Vue.config.keyCodes = {

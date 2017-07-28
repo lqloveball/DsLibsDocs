@@ -13,10 +13,10 @@
     - [TweenMax Easing](Team/TweenMax/Easing.md)
   - **[Pano2VR教程](Team/Pano2VR/)**
   - **[H5项目常见问题](Team/H5FAQ.md)**
-  - **[VUE学习笔记](Team/Vue)**
+  - **[VUE学习笔记](Team/Vue/)**
   - **[团队JS基础教程]**
     - [从零开始](Team/JSBase/Base0.md)
     - [事件机制](Team/JSBase/Base1.md)
-    - [原生JS DOM基本操作](Team/JSBase/Base2.md) 
+    - [原生JS DOM基本操作](Team/JSBase/Base2.md)
   - [Ds库](Ds/)
   - [项目开发指南](Workflow/)
