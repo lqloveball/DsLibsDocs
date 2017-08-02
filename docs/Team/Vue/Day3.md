@@ -104,3 +104,20 @@ function timeUpdata1(){
 }
 timeUpdata1();
 ```
+
+
+### 直接组件挂载到html上
+
+```
+//html
+<div id="app">
+  <app></app>
+</div>
+
+//js
+import App from './App.vue';
+var app=new Vue({
+  el:'#app',
+  components:{App},
+});
+```

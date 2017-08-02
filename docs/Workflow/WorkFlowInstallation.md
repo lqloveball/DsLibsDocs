@@ -104,3 +104,11 @@ npm install gulp --save
 //安装指定模块到devDependencies（开发阶段的依赖）
 npm install gulp --save-dev
 ```
+
+> 卸载方式 webpack
+npm uninstall webpack --save
+npm uninstall webpack-dev-server --save
+
+> 安装：webpack 指定版本
+cnpm install webpack@3.0.0 --save
+cnpm install webpack-dev-server --save
