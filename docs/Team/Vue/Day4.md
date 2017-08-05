@@ -1,16 +1,38 @@
 
 ### 核心主要学习点
+name 组件名
 
 data  数据对象
 
+computed  计算数据对象
+
 methods 方法
+
+props 父级传参数
+
+components 很重要一个属性 子组件
+
+watch 数据观察变化
+
+mixins 混合方法
+
 
 v-on  等同于 @
 
 v-bind  等同 ：
 
-components 很重要一个属性 子组件
 
+### 主要生命周期有
+- `beforeCreate` 创建前
+- `created`  创建完成
+- `beforeMounte` 进行装配前
+- `mounted` 装配完成
+- `beforeUpdate` 进行数据更新前
+- `updated` 数据更新后
+- `activated`
+- `deactivated`
+- `beforeDestroy` 进行摧毁前
+- `destroyed` 摧毁完成
 
 ### 组件之间通信
 
@@ -52,7 +74,7 @@ data: function () {
 props: ['size'],
 computed: {
   normalizedSize: function () {
-    return this.size.trim().toLowerCase() 
+    return this.size.trim().toLowerCase()
   }
 }
 ```

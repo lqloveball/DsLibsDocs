@@ -1,3 +1,5 @@
+http://wiki.jikexueyuan.com/project/iscroll-5/versions.html
+
 ### 代码示例
 
 #### html
@@ -114,11 +116,24 @@ myScroll.on('scrollEnd', doSomething);
 ```
 
 
-* beforeScrollStart, executed as soon as user touches the screen but before the scrolling has initiated.
-* scrollCancel, scroll initiated but didn't happen.
-* scrollStart, the scroll started.
-* scroll, the content is scrolling. Available only in scroll-probe.js edition. See onScroll event.
-* scrollEnd, content stopped scrolling.
-* flick, user flicked left/right.
-* zoomStart, user started zooming.
-* zoomEnd, zoom ended.
+beforeScrollStart，在用户触摸屏幕但还没有开始滚动时触发。
+scrollCancel，滚动初始化完成，但没有执行。
+scrollStart，开始滚动
+scroll，内容滚动时触发，只有在scroll-probe.js版本中有效，请参考onScroll event。
+scrollEnd，停止滚动时触发。
+flick，用户打开左/右。
+zoomStart，开始缩放。
+zoomEnd，缩放结束。
+
+
+### 滚动条信息
+myScroll.x/y，当前位置
+myScroll.directionX/Y，最后的方向 (-1 down/right, 0 still, 1 up/left)
+myScroll.currentPage，当前对齐捕获点
+
+### iScroll的版本
+iscroll.js，这个版本是常规应用的脚本。它包含大多数常用的功能，有很高的性能和很小的体积。
+iscroll-lite.js，精简版本。它不支持快速跳跃，滚动条，鼠标滚轮，快捷键绑定。但如果你所需要的是滚动(特别是在移动平台) iScroll 精简版 是又小又快的解决方案。
+iscroll-probe.js，探查当前滚动位置是一个要求很高的任务,这就是为什么我决定建立一个专门的版本。如果你需要知道滚动位置在任何给定的时间,这是iScroll给你的。（我正在做更多的测试,这可能最终在常规iscroll.js脚本，请留意）。
+iscroll-zoom.js，在标准滚动功能上增加缩放功能。
+iscroll-infinite.js，可以做无限缓存的滚动。处理很长的列表的元素为移动设备并非易事。 iScroll infinite版本使用缓存机制,允许你滚动一个潜在的无限数量的元素。
