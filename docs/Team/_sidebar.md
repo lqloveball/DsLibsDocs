@@ -3,6 +3,14 @@
   - **[Createjs]**
     - [Createjs基础培训](Team/Createjs/)
   - [IScroll教程](Team/IScroll/)
+  - [Touchjs教程](Team/Touchjs/)
+  - **[团队JS基础教程]**
+    - [从零开始](Team/JSBase/Base0.md)
+    - [事件机制](Team/JSBase/Base1.md)
+    - [原生JS DOM基本操作](Team/JSBase/Base2.md)
+  - [Ds库](Ds/)
+  - **[H5项目常见问题](Team/H5FAQ.md)**
+  - **[Pano2VR教程](Team/Pano2VR/)**
   - **[TweenMax教程]**
     - [关于TweenMax](Team/TweenMax/)
     - [TweenLite](Team/TweenMax/TweenLite.md)
@@ -11,12 +19,5 @@
     - [TimelineMax](Team/TweenMax/TimelineMax.md)
     - [TweenMax Plugin](Team/TweenMax/Plugin.md)
     - [TweenMax Easing](Team/TweenMax/Easing.md)
-  - **[Pano2VR教程](Team/Pano2VR/)**
-  - **[H5项目常见问题](Team/H5FAQ.md)**
   - **[VUE学习笔记](Team/Vue/)**
-  - **[团队JS基础教程]**
-    - [从零开始](Team/JSBase/Base0.md)
-    - [事件机制](Team/JSBase/Base1.md)
-    - [原生JS DOM基本操作](Team/JSBase/Base2.md)
-  - [Ds库](Ds/)
   - [项目开发指南](Workflow/)
