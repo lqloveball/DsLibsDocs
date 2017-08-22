@@ -53,7 +53,7 @@
 #### 八、新技术研究跟进
  - svg
  - pixi
- - threejs等
+ - threejs
  - AI技术
  - vue
  - react
