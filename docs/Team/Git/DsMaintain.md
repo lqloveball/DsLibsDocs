@@ -31,7 +31,7 @@
 <img src="./_images/GitFork/clipboard6.png" width = "100%" alt="" align=center />
 
 以上主要步骤
-`创建主仓库fork`
+`创建主仓库fork` 
 `拉取到本地`
 `修改代码`
 `提交到fork仓库`
