@@ -1,16 +1,16 @@
 - [返回](/README)
-  - **[内部Git管理Gitlab](Team/Git/)**
+  - **[团队文档区域](Team/)**
+  - **[H5项目常见问题](Team/H5FAQ.md)**
+  - **[IScroll教程](Team/IScroll/)**
+  - **[Touchjs教程](Team/Touchjs/)**
+  - **[Pano2VR教程](Team/Pano2VR/)**
+  - **[JSTween教程](Team/JSTween/)**
   - **[Createjs]**
     - [Createjs基础培训](Team/Createjs/)
-  - [IScroll教程](Team/IScroll/)
-  - [Touchjs教程](Team/Touchjs/)
   - **[团队JS基础教程]**
     - [从零开始](Team/JSBase/Base0.md)
     - [事件机制](Team/JSBase/Base1.md)
     - [原生JS DOM基本操作](Team/JSBase/Base2.md)
-  - [Ds库](Ds/)
-  - **[H5项目常见问题](Team/H5FAQ.md)**
-  - **[Pano2VR教程](Team/Pano2VR/)**
   - **[TweenMax教程]**
     - [关于TweenMax](Team/TweenMax/)
     - [TweenLite](Team/TweenMax/TweenLite.md)
@@ -19,5 +19,9 @@
     - [TimelineMax](Team/TweenMax/TimelineMax.md)
     - [TweenMax Plugin](Team/TweenMax/Plugin.md)
     - [TweenMax Easing](Team/TweenMax/Easing.md)
+  - **[内部Git管理Gitlab](Team/Git/)**
+  - **[GitHub协作开发](Team/Git/DsMaintain.md)**
+  - **[团队精神](Team/TeamSpirit.md)**
   - **[VUE学习笔记](Team/Vue/)**
+  - [Ds库](Ds/)
   - [项目开发指南](Workflow/)
